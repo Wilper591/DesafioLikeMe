@@ -2,10 +2,10 @@ import pg from "pg";
 const { Pool } = pg;
 
 const config = {
-  user: "wilper591",
-  host: "dpg-cog0f9ol5elc73dm5o80-a.oregon-postgres.render.com",
-  database: "repertorio_x86u",
-  password: "9sN5Ew742epPIWcwZ23JcIxRKAoYUumD",
+  user: process.env.USER,
+  host: process.env.HOST,
+  database: process.env.DATABASE,
+  password: process.env.PASSWORD,
   port: 5432,
   ssl: true,
 };
