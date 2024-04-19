@@ -1,4 +1,4 @@
-const url_base = "http://localhost:3000/apiV1/likeme";
+const url_base = "https://likeme-50ph.onrender.com/apiV1/likeme";
 
 $(document).ready(function () {
   $("form:first").submit(async (e) => {
